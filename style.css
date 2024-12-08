@@ -362,3 +362,15 @@ form button:hover {
     margin-bottom: 20px;
     border-radius: 10px;
 }
+
+.project-card a {
+        background: #ffd700;
+        color: #fff;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        cursor: pointer;
+        animation: pulse 2s infinite;
+}
