@@ -178,6 +178,12 @@ nav {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.pfp {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
@@ -357,7 +363,7 @@ form button:hover {
 
 /* For the image adjustment in the projects */
 
-.WebsiteSneakPeak img {
+.WebsiteSneakPeek img {
     width: 92%;
     margin-bottom: 20px;
     border-radius: 10px;
