@@ -339,6 +339,11 @@ form button:hover {
 }
 
 /* Project Titles */
+.project-card img {
+    width: 250px;
+    height: 200px;
+}
+
 .project-card h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
