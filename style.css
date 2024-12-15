@@ -438,3 +438,32 @@ form button:hover {
         height: 40px;
         margin-right: 10px;
     }
+
+ nav {
+        display: flex;
+        justify-content: space-between; /* This ensures space between logo and nav links */
+        align-items: center; /* Aligns logo and nav links vertically in the center */
+        padding: 10px 20px; /* Adds some space around the elements */
+    }
+        
+.nav-links {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+        
+.nav-links li {
+        margin-left: 20px; /* Adds space between the navigation links */
+    }
+        
+.nav-links a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+        
+.nav-links a:hover {
+        color: #ffd700; /* Adds a hover effect on the links */
+    }
