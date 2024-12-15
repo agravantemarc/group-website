@@ -424,3 +424,17 @@ form button:hover {
         animation: pulse 2s infinite;
 }
 
+.logo {
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #ffd700;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+.logo img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
