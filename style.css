@@ -126,13 +126,9 @@ nav {
 .nav-links a.active {
     color: #ff6600;
     font-weight: bold;
+    border-bottom: 3px solid;
 }
 
-.wblogo {
-    width: 100px;
-    height: 100px;
-
-}
 /* Section Styling */
 .section {
     padding: 80px 20px;
@@ -440,13 +436,16 @@ form button:hover {
     align-items: center;
     gap: 10px;
 }
+
 .logo-container img {
     height: 40px;
     width: 40px;
     margin-left: 30px;
     margin-bottom: 10px;
     margin-top: 10px;
+    animation: fadeInDown 1.2s ease-in-out;
 }
+
 .logo-container h1 {
     color: #ffc107;
     font-size: 1.5em;
