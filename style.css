@@ -242,6 +242,13 @@ form {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     animation: fadeInUp 1.5s ease-in-out;
+    margin-top: -2%;
+    margin-bottom: 6%;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: white;
 }
 
 /* Inputs and Textarea */
@@ -397,3 +404,4 @@ form button:hover {
         cursor: pointer;
         animation: pulse 2s infinite;
 }
+
