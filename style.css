@@ -1,4 +1,7 @@
 /* General Styles */
+*{
+    font-family: 'Poppins', sans-serif;
+  }
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -160,10 +163,12 @@ nav {
 /* Cards with Hover Effect */
 .card-container {
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
     justify-content: center;
+    margin-top: -80px;
+    margin-bottom: 70px;
 }
 
 .card {
@@ -171,7 +176,7 @@ nav {
     color: #fff;
     padding: 20px;
     border-radius: 15px;
-    width: 250px;
+    width: 25%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transform: translateY(0);
     animation: fadeIn 1.5s ease-in-out;
@@ -302,6 +307,7 @@ form button:hover {
     background: linear-gradient(to bottom right, #ff6a00, #ee0979);
     text-align: center;
     color: #fff;
+    margin-top: -5%;
 }
 
 .section.projects h2 {
@@ -309,6 +315,7 @@ form button:hover {
     margin-bottom: 50px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-top: -3%;
     animation: fadeIn 1s ease-in-out;
 }
 
@@ -331,6 +338,7 @@ form button:hover {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .project-card:hover {
@@ -370,8 +378,12 @@ form button:hover {
 
 .WebsiteSneakPeek img {
     width: 92%;
-    margin-bottom: 20px;
+    margin-top: 20px;
     border-radius: 10px;
+}
+
+.peek h2{
+    margin-top: 100px;
 }
 
 .project-card a {
